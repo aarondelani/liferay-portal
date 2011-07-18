@@ -1,3 +1,4 @@
+<%--
 /**
  * Copyright (c) 2000-2011 Liferay, Inc. All rights reserved.
  *
@@ -11,29 +12,4 @@
  * FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more
  * details.
  */
-
-package com.liferay.portal.search;
-
-import com.liferay.portal.kernel.search.PortalSearchEngine;
-import com.liferay.portal.util.PropsValues;
-
-/**
- * @author Bruno Farache
- */
-public class PortalSearchEngineImpl implements PortalSearchEngine {
-
-	public PortalSearchEngineImpl() {
-		_indexReadOnly = PropsValues.INDEX_READ_ONLY;
-	}
-
-	public boolean isIndexReadOnly() {
-		return _indexReadOnly;
-	}
-
-	public void setIndexReadOnly(boolean indexReadOnly) {
-		_indexReadOnly = indexReadOnly;
-	}
-
-	private boolean _indexReadOnly;
-
-}
+--%>
